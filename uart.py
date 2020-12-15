@@ -6,5 +6,5 @@ fpga = serial.Serial('COM4',9600)
 print("Serial Iniciada")
 
 while 1:
-    serialRead = fpga.read(20)
+    serialRead = fpga.read(15)
     print("Leitura: " + str(serialRead))
