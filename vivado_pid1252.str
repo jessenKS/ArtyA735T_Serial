@@ -1,0 +1,271 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 1252
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Tue Dec 15 13:33:38 BRST 2020
+Time zone: 	Brasilia Standard Time (America/Sao_Paulo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Jessen
+User home directory: C:/Users/Jessen
+User working directory: C:/Users/Jessen/Desktop/micro 2/project_1
+User country: 	BR
+User language: 	pt
+User locale: 	pt_BR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.2
+RDI_DATADIR: C:/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/Jessen/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/Jessen/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/Jessen/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Jessen/Desktop/micro 2/project_1/vivado.log
+Vivado journal file location: 	C:/Users/Jessen/Desktop/micro 2/project_1/vivado.jou
+Engine tmp dir: 	C:/Users/Jessen/Desktop/micro 2/project_1/.Xil/Vivado-1252-DESKTOP-P60UMVA
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,010 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Jessen\Desktop\micro 2\project_1\project_1.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: open_project {C:/Users/Jessen/Desktop/micro 2/project_1/project_1.xpr} 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/Jessen/Desktop/micro 2/project_1/project_1.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Jessen/Desktop/project_1' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,010 MB. GUI used memory: 53 MB. Current time: 12/15/20, 1:33:40 PM BRST
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 73 MB (+74417kb) [00:00:20]
+// [Engine Memory]: 1,010 MB (+907766kb) [00:00:20]
+// [GUI Memory]: 97 MB (+21292kb) [00:00:21]
+// [GUI Memory]: 112 MB (+10432kb) [00:00:25]
+// WARNING: HEventQueue.dispatchEvent() is taking  8601 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:14 . Memory (MB): peak = 1002.105 ; gain = 0.000 
+// Project name: project_1; location: C:/Users/Jessen/Desktop/micro 2/project_1; part: xc7a35ticsg324-1L
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 130 MB (+12695kb) [00:00:33]
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 137 MB (+1030kb) [00:03:32]
+// WARNING: HTimer (StateMonitor Timer) is taking 650ms to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 260ms to process. Increasing delay to 2000 ms.
+// Elapsed time: 502 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bz (cr):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// WARNING: HEventQueue.dispatchEvent() is taking  1682 ms.
+// Tcl Message: open_hw_manager 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Open Hardware Manager"); // bz
+// Elapsed time: 14 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ak
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bz (cr):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2020.2   **** Build date : Nov 18 2020 at 10:01:48     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 
+// Tcl Message: INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2020.2   ****** Build date   : Nov 03 2020-18:02:56     **** Build number : 2020.2.1604437376       ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:03 ; elapsed = 00:00:31 . Memory (MB): peak = 1002.105 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  6709 ms.
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210319753909A 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,227 MB. GUI used memory: 77 MB. Current time: 12/15/20, 1:43:12 PM BRST
+// Tcl Message: open_hw_target: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2262.816 ; gain = 1260.711 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Jessen/Desktop/micro 2/project_1/project_1.runs/impl_1/loopback.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 2,227 MB (+1223087kb) [00:09:49]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Elapsed time: 39 seconds
+dismissDialog("Auto Connect"); // bz
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h
+// PAPropertyPanels.initPanels (xc7a35t_0) elapsed time: 0.2s
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cr): Program Device: addNotify
+applyEnter(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, "C:/Users/Jessen/Desktop/micro 2/project_1/project_1.runs/impl_1/loopback.bit"); // ao
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cr):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Jessen/Desktop/micro 2/project_1/project_1.runs/impl_1/loopback.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz
+// Elapsed time: 75 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // ac
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // ac
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // ac
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // ac
+selectMenuItem(PAResourceCommand.PACommandNames_FILESET_WINDOW, "Sources"); // ak
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // ac
+// Run Command: PAResourceCommand.PACommandNames_FILESET_WINDOW
+// PAPropertyPanels.initPanels (loopback.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback(rtl) (loopback.vhd)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, loopback(rtl) (loopback.vhd)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 2,270 MB. GUI used memory: 80 MB. Current time: 12/15/20, 1:44:45 PM BRST
+selectCodeEditor("loopback.vhd", 488, 95); // bP
+selectCodeEditor("loopback.vhd", 488, 95, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("loopback.vhd", 610, 114); // bP
+selectCodeEditor("loopback.vhd", 513, 96); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+typeControlKey(null, null, 'z');
+selectCodeEditor("loopback.vhd", 223, 185); // bP
+selectCodeEditor("loopback.vhd", 223, 185, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("loopback.vhd", 393, 165); // bP
+selectCodeEditor("loopback.vhd", 383, 169); // bP
+selectCodeEditor("loopback.vhd", 223, 170); // bP
+selectCodeEditor("loopback.vhd", 223, 170, false, false, false, false, true); // bP - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 61 seconds
+selectCodeEditor("loopback.vhd", 155, 158); // bP
+selectCodeEditor("loopback.vhd", 155, 158, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("loopback.vhd", 303, 170); // bP
+selectCodeEditor("loopback.vhd", 206, 161); // bP
+selectCodeEditor("loopback.vhd", 206, 161, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("loopback.vhd", 280, 145); // bP
+selectCodeEditor("loopback.vhd", 363, 172); // bP
+selectCodeEditor("loopback.vhd", 444, 171); // bP
+selectCodeEditor("loopback.vhd", 282, 158); // bP
+selectCodeEditor("loopback.vhd", 145, 159); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cD (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'cA' command handler elapsed time: 4 seconds
+dismissDialog("Launch Runs"); // cD
+// bz (cr):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Dec 15 12:46:24 2020] Launched synth_1... Run output will be captured here: C:/Users/Jessen/Desktop/micro 2/project_1/project_1.runs/synth_1/runme.log [Tue Dec 15 12:46:25 2020] Launched impl_1... Run output will be captured here: C:/Users/Jessen/Desktop/micro 2/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // ac
+selectMenuItem(PAResourceCommand.PACommandNames_DESIGN_RUNS_WINDOW, "Design Runs"); // ak
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // ac
+// Run Command: PAResourceCommand.PACommandNames_DESIGN_RUNS_WINDOW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
