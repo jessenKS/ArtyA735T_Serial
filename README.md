@@ -1,4 +1,4 @@
-# Decoder To Decimal VHDL
+# Comunicação Serial (UART)
  
 ## Descrição do modelo
 
