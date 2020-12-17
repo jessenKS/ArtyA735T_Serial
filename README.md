@@ -5,7 +5,7 @@
 Através do cabo USB, é feita a comunicação serial, nesse caso a comunicação é entre o computador e a FPGA. Foi criado um servidor em Python para receber os dados enviados pela FPGA através da USB e, é apresentado no terminal o valor recebido.
 
 ## Material
--Placa Xilinx Arty Artix-7 35T;
+- Placa Xilinx Arty Artix-7 35T;
 
 - Cabo USB micro;
 
